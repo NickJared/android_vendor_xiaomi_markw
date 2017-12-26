@@ -168,7 +168,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.fm@1.0
-LOCAL_MODULE_OWNER := htc
+LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/lib/vendor.qti.hardware.fm@1.0.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
