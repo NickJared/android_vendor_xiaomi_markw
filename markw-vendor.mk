@@ -614,7 +614,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
-    vendor/htc/m8-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
@@ -744,7 +744,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/htc/m8-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -768,6 +768,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
@@ -920,6 +921,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -942,6 +944,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
+    vendor.qti.hardware.fm@1.0 \
     libaudio_log_utils \
     libgpustats \
     libsdm-disp-vndapis \
